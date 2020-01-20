@@ -1,0 +1,41 @@
+name: anima_clock
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+  intl: ^0.16.0
+
+  flare_flutter: ^1.0.4
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/images/
+  fonts:
+    - family: Rudiment
+      fonts:
+        - asset: assets/fonts/Rudiment-0gwP.ttf
+
+    - family: Rancho
+      fonts:
+        - asset: assets/fonts/Rancho-Regular.ttf
+          weight: 400

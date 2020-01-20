@@ -1,0 +1,8 @@
+Container(
+          color: Colors.blue[200],
+          child: Text(
+            second,
+            style: TextStyle(
+              fontSize: fontSize),
+          ),
+        ),
